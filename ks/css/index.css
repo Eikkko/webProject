@@ -16,6 +16,12 @@ a{
 .right{
 	float: right;
 }
+.fade{
+	opacity: 0;
+}
+.show{
+	opacity: 1;
+}
 
 /* #accessory,#after_sale,#banner,#footer,#header,#nav,#serve,#star,#world{
 	height: 100px;
@@ -483,4 +489,21 @@ a{
 	float: right;
 	margin: 0 10px;
 	color: #DFDFDF;
+}
+/* 反回顶部totop */
+#totop {
+	
+	width: 83px;
+	height: 77px;
+	display: none;
+	position: fixed;
+	right: 0px;
+	bottom: 50px;
+	
+}
+#btn {
+	width: 83px;
+	height: 77px;
+	display: inline-block;
+	background: url(../img/totop.png) no-repeat -0px -0px;
 }
