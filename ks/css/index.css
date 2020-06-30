@@ -32,7 +32,6 @@ a{
 	width: 1290px;
 /* 	border: 1px solid #f00; */
 	margin: 0px auto;
-	position: relative;
 	
 }
 
@@ -101,11 +100,19 @@ a{
 #nav{
 	height: 90px;
 	background-color: #eee;
+	clear: both;
+	
 }
+
 #nav li{
+	width:70px;
 	float: left;
-	margin: 0px 15px;
 	line-height: 90px;
+
+}
+#nav li:nth-child(6){
+	margin-right:15px;
+
 }
 #nav li a{
 	color: #666;
